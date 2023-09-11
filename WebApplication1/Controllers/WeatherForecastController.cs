@@ -30,5 +30,9 @@ namespace WebApplication1.Controllers
             .ToArray();
         }
         //abc 
+        public IActionResult Index()
+        {
+            return Ok();
+        }
     }
 }
